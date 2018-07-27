@@ -5,11 +5,16 @@
     <title>Exercice 5</title>
   </head>
   <body>
+    <p>
     <?php
       $int = NULL;
+      settype($int, 'int'); //Définition de la variable en nombre entier (int)
       echo $int;
+    ?>
+    <?php
       $int = 94;
       echo $int;
     ?>
+  </p>
   </body>
 </html>
